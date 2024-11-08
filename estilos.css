@@ -1,0 +1,196 @@
+body{
+	display:flex;
+	width: auto;
+	flex-direction: column;
+	height: 100vh;
+	font-family: palatino;
+	
+}
+
+
+img{
+	display:flex;
+	
+	
+	
+	
+}
+p{
+	text-align: center;
+	font-size: 23px;
+	font-family: bodoni, Sans-serif;
+}
+
+header{
+	display: flex; 
+	height: 160px;
+	background:linear-gradient(#531008, black);
+	margin: auto;
+	width: 100%;
+	
+	
+	
+}
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+	flex-wrap:wrap;
+	margin: auto;
+	align-items: center;
+	height: 180px;
+	width: 80%;
+
+	
+}
+a:link, a:visited{
+	text-decoration:none;
+	font-family: Arial;
+	font-weight: bold; /*negrita*/
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.5s; 
+	flex-direction: row;
+ }
+	nav a:hover{
+	color: black;
+	background-color: white;
+}
+
+.fondo {
+background-image: url("imagenes/Fondos/deportesf.jpg");
+width: 100%;
+	
+	
+	
+}
+
+footer{
+	
+	
+	margin-top: 20px;
+	flex-direction: row;
+	display: flex;
+	height: 140px;
+	width: 100%;
+	justify-content: space-around;
+	background:linear-gradient( black, #531008);
+
+	
+}
+.programaS {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.programa1 {
+	display:flex;
+	flex-direction: column;
+}
+
+.programa2 {
+	display:flex;
+	flex-direction: column;
+}
+.fotosinvitados {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: auto;
+}
+
+.invitado {
+	text-align: center;
+	background-color: Orange;
+	
+}
+
+h1{
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+
+	
+.Deportes1234 {
+	
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	
+}
+.arriba {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.abajo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+table{
+	
+	height: 600px;
+	width:80%;
+	margin-right: 10%;
+	margin-left: 10%;
+	background-color: #6e0f0f;
+	border-width: 5px;
+	border-bottom-width:5px;
+	border-top-style: inset;
+	text-shadow: 1px 0px 0px;
+	color: #a19f9f;
+	
+}
+.Horario {
+	width:100%;
+	
+	
+}
+
+.reloj{
+	font-size: 24px;
+	font-family: arial;
+	text-align: center;
+	margin-top: 50px;
+}
+#reloj {
+	font-size:20px;
+	font-weight: bold;
+	 font-size: 2em;                          /* Tamaño de la fuente del reloj */
+    color: white;                          /* Color de texto en rosa brillante */
+    text-align: center;                      /* Alinea el texto al centro */
+    padding: 1%;                           /* Espacio interno dentro del contenedor */
+    background: linear-gradient(45deg, #000000, #4d4d4d); /* Fondo degradado */
+    border-radius: 15px;                     /* Bordes redondeados */
+    box-shadow: 0 0 20px #0026ff, 0 0 40px #0077ff; /* Sombra brillante */
+    animation: glow 0.5s ease-in-out infinite alternate; /* Animación de resplandor */
+	height: 40px;	
+	
+}
+
+/* Animación para el reloj */
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px #0026ff, 0 0 20px #0077ff, 0 0 30px g;
+    }
+    100% {
+        box-shadow: 0 0 30px green, 0 0 40px #00bcd4, 0 0 50px #00bcd4;
+    }
+}
+}
+
+
+
+	
+
+ 
+
